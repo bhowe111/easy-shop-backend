@@ -32,6 +32,7 @@ router.get(`/:id`, async (req, res) => {
 
 // async/await method to post
 router.post("/", async (req, res) => {
+  console.log(req.body);
   const orderItemsIds = Promise.all(
     req.body.orderItems.map(async (orderItem) => {
       let newOrderItem = new OrderItem({

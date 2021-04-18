@@ -1,7 +1,7 @@
 # easy-shop-backend
 
 # Introduction
-This repository is the code representation for the udemy course "MERN Stack E-Commerce Mobile App: React Native, Redux, Expo"
+I took the udemy course "MERN Stack E-Commerce Mobile App: React Native, Redux, Expo" to create this project.
 
 # Run
 Configure Database Connection String
